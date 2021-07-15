@@ -1,6 +1,6 @@
 # Short Url Service
 
----
+<br>
 
 **一個使用python + FastAPI開發的簡單短網址後端API**
 
@@ -12,7 +12,7 @@ cd shorten_url
 pip install requirement.txt
 ```
 
----
+<br>
 
 ## 使用方法
 
@@ -64,7 +64,7 @@ url: http://127.0.0.1:8000/{url_hash}
 return redirect_to_the_original_page
 ```
 
----
+<br>
 
 ## 詳細資訊
 
