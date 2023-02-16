@@ -25,7 +25,7 @@ uvicorn main:app
 
 ```
 method: post
-url: https://127.0.0.1:8000/convert/
+url: http://127.0.0.1:8000/convert/
 request body: {'url':string}
 return json
 ```
@@ -36,7 +36,7 @@ json中的`hash_url`即為縮短後的網址，前面的url在deploy後也可以
 
 ```
 # example
-post_to: https://127.0.0.1:8000/convert/
+post_to: http://127.0.0.1:8000/convert/
 body: {"url": "https://youtube.com"}
 ```
 
